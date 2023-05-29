@@ -9,7 +9,8 @@ target 'QuickNimble_iOS' do
 
   target 'QuickNimble_iOSTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'Quick'
+    pod 'Nimble'
   end
 
   target 'QuickNimble_iOSUITests' do

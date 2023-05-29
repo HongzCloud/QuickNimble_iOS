@@ -197,6 +197,7 @@
 				1E0E28B62A24B1B10072D935 /* Sources */,
 				1E0E28B72A24B1B10072D935 /* Frameworks */,
 				1E0E28B82A24B1B10072D935 /* Resources */,
+				4E239EE01F57541150B5AE0E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,6 +299,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4E239EE01F57541150B5AE0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickNimble_iOSTests/Pods-QuickNimble_iOSTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuickNimble_iOSTests/Pods-QuickNimble_iOSTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuickNimble_iOSTests/Pods-QuickNimble_iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		649FCADFB7E238F4AE797FBB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
